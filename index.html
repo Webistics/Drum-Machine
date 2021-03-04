@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Machine</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=smiley.com"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio src="DrumSounds/Snare.wav" id="snare-audio"></audio>
+    <audio src="DrumSounds/HiHatClose.wav" id="hihat-close-audio"></audio>
+    <audio src="DrumSounds/HiHatOpen.wav" id="hihat-open-audio"></audio>
+    <audio src="DrumSounds/Kick.wav" id="kick-audio"></audio>
+    <audio src="DrumSounds/Clap.wav" id="clap-audio"></audio>
+    <audio src="DrumSounds/Tom1.wav" id="tom1-audio"></audio>
+    <audio src="DrumSounds/Tom2.wav" id="tom2-audio"></audio>
+    <audio src="DrumSounds/Crash.wav" id="crash-audio"></audio>
+    <audio src="DrumSounds/Ride.wav" id="ride-audio"></audio>
+
+    <div class="machine-container">
+      <div class="top-row">
+        <button class="pad" id="snare">Snare</button>
+        <button class="pad" id="hi-hat-close">Hi Hat Closed</button>
+        <button class="pad" id="hi-hat-open">Hi Hat Open</button>
+      </div>
+      <div class="middle-row">
+        <button class="pad" id="kick">Kick</button>
+        <button class="pad" id="clap">Clap</button>
+        <button class="pad" id="tom-1">Tom 1</button>
+      </div>
+      <div class="bottom-row">
+        <button class="pad" id="tom-2">Tom 2</button>
+        <button class="pad" id="crash">Crash</button>
+        <button class="pad" id="ride">Ride</button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
